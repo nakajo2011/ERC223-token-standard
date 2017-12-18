@@ -33,5 +33,12 @@ contract('ERC223TokenTest', function (accounts) {
     const balance3 = await token.balanceOf(hasFallback.address)
     assert.equal(5, balance3.toNumber())
   })
+
+  it("allow transfer to other EOA ", async () => {
+    // もちろん他のEOAにも送れる
+    const receipt4 = await token.transfer(accounts[1], 30)
+    const balance4 = await token.balanceOf(accounts[1])
+    assert.equal(30, balance4.toNumber())
+  })
 })
 
