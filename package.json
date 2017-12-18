@@ -1,0 +1,19 @@
+{
+  "name": "erc223-token-standard",
+  "version": "1.0.0",
+  "description": "ERC223 is a modification of the ERC20 token standard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dexaran/ERC223-token-standard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dexaran/ERC223-token-standard/issues"
+  },
+  "homepage": "https://github.com/Dexaran/ERC223-token-standard#readme"
+}
